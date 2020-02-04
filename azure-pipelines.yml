@@ -23,7 +23,7 @@ steps:
 - task: UseDotNet@2
   inputs:
     packageType: 'sdk'
-    version: '2.2.207'
+    version: '2.2.109'
 
 - task: DotNetCoreCLI@2
   inputs:
